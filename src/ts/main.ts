@@ -6,6 +6,45 @@ class Main {
     private itemList: ItemList = new ItemList()
 
     constructor() {
+        // From the API!
+        new Item({
+            name: "Toph Feet",
+            rarity: "ultra",
+            location: "avatar earth",
+            map: "12",
+            item: "minecraft_leather_boots",
+            enchants: [
+                "protection 8"
+            ],
+            tint: "#00AA00",
+            hints: [
+                "You have 0.6x knockback reduction to self and full explosion knockback resistance",
+                "Move faster while sneaking",
+                "While worn, take 8% less damage and 12% less damage while sneaking"
+            ],
+            tags: []
+        })
+        new Item({
+            name: "MARCELINE'S AXE BASS",
+            rarity: "legendary",
+            location: "adventure time",
+            map: "12",
+            item: "munchy_marcelines_bass_axe",
+            enchants: [
+                "sharpness 21",
+                "fortune 15",
+                "efficiency 1"
+            ],
+            hints: [
+                "Hit someone for a chance to heal and make them bleed",
+                "Gain strength 3 and speed 5 at night",
+                "Right click to teleport to the nearest player"
+            ],
+            tags: []
+        })
+
+
+        // Hand Typed
         new Item({
             name: 'diet dr kelp',
             rarity: 'semi',
@@ -49,18 +88,6 @@ class Main {
             map: '12',
             item: 'munchy_sea_twister_essence',
             enchants: [],
-            tint: undefined,
-            hints: [],
-            tags: []
-        })
-
-        new Item({
-            name: "marceline's axe bass",
-            rarity: 'legendary',
-            location: 'adventure time',
-            map: '12',
-            item: 'munchy_marcelines_bass_axe',
-            enchants: ['fortune XV'],
             tint: undefined,
             hints: [],
             tags: []
