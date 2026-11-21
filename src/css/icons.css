@@ -4,47 +4,6 @@
     height: 100% !important
 }
 
-/* Vanilla items - correct the enchanted class */
-.rc-item.rc-minecraft_filled_map.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/filled_map.webp);
-}
-
-.rc-item.rc-minecraft_firework_star.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/firework_star.webp);
-}
-
-.rc-item.rc-minecraft_leather_boots.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/leather_boots.webp);
-}
-
-.rc-item.rc-minecraft_leather_chestplate.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/leather_chestplate.webp);
-}
-
-.rc-item.rc-minecraft_leather_helmet.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/leather_helmet.webp);
-}
-
-.rc-item.rc-minecraft_leather_leggings.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/leather_leggings.webp);
-}
-
-.rc-item.rc-minecraft_lingering_potion.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/lingering_potion.webp);
-}
-
-.rc-item.rc-minecraft_potion.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/potion.webp);
-}
-
-.rc-item.rc-minecraft_splash_potion.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/splash_potion.webp);
-}
-
-.rc-item.rc-minecraft_tipped_arrow.rc-enchanted {
-    mask-image: url(https://assets.rendermite.dev/icons/1.21.11/items/minecraft/tipped_arrow.webp);
-}
-
 /* Custom items */
 .rc-item.rc-munchy_pretty_patty {
     background-image: url(/icons/items/munchy/minecraft_cooked_beef_pretty_patty.webp);
